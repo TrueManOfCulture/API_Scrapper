@@ -17,14 +17,18 @@ Python-based API that scrapes package data
    python main.py
 ```
 
-##Testing
+## Testing
 
-Method 1 : 
+### Method 1 : 
 
-1. Go to localhost:8000/docs to check the documentation and test using SwaggerUI
+1. Go to `localhost:8000/docs` to check the documentation and test using SwaggerUI
 
-2. Click on Try it out
+2. Click on "Try it out"
 
-3. Open GET /aptoide and input the package name in the parameter
+3. Open `GET /aptoide` and input the package name in the parameter
 
-4. Click on execute and check for the results
+4. Click on "Execute" and check for the results
+
+### Method 2 : 
+
+1. Using API testing tools like Insomnia or Postman when running the server send a GET request to localhost:8000/aptoide?package_name=com.facebook.katana
