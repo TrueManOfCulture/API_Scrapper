@@ -39,7 +39,7 @@ Python-based API that scrapes package data
 
 ## Usage
 
-### Method 1: Swagger UI (Recommended for testing)
+### Method 1: Swagger UI
 
 1. Go to `localhost:8000/docs` to check the documentation and test using SwaggerUI
 
