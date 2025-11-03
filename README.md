@@ -61,11 +61,11 @@ example of package names you can try : com.facebook.katana
 
 ### Example Package Names
 
-com.whatsapp
+- com.whatsapp
 
-com.facebook.katana
+- com.facebook.katana
 
-com.spotify.music
+- com.spotify.music
 
 ## Assumptions and Design Decisions
 
