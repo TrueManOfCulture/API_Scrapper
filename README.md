@@ -57,8 +57,6 @@ curl "http://localhost:8000/aptoide?package_name=com.facebook.katana"
 
 1. Using API testing tools like Insomnia or Postman when running the server send a GET request to localhost:8000/aptoide?package_name=com.facebook.katana
 
-example of package names you can try : com.facebook.katana 
-
 ### Example Package Names
 
 - com.whatsapp
