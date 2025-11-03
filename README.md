@@ -67,8 +67,8 @@ curl "http://localhost:8000/aptoide?package_name=com.facebook.katana"
 
 ## Assumptions and Design Decisions
 
-I created a model for the JSON response that has the same fields as the example presented in the challenge, this is assuming the response has to return these even if they're null
+I created a model for the JSON response that has the same fields as the example presented in the challenge, this is assuming the response has to return these even if they're null.
 
-I assumed those were all the relevant informations required specially after checking info in the app's page, apk information could be added if that is considered relevant
+I assumed that was all the relevant information required specially after checking the info section in the app's page, apk information could be added if that is considered relevant.
 
 The regex used to search and scrape information was done by comparing the example and 2-3 apps in aptoide website, if there are different requirements for how a package name is defined, like it always starts with com. that could be fixed to verify for valid package names.
