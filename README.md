@@ -27,4 +27,4 @@ Method 1 :
 
 3. Open GET /aptoide and input the package name in the parameter
 
-4. Click on execute and check for the results
+4. Click on execute and check the response
